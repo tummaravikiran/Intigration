@@ -1,0 +1,22 @@
+pipeline{
+ agnet any
+stages{
+
+stage("build"){
+echo 'building the application...'
+}
+}
+stages{
+
+stage("Testing"){
+echo 'Testing the application...'
+}
+}
+stages{
+
+stage("Deploy"){
+echo 'deploying the application...'
+}
+}
+}
+}
